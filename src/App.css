@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Girassol|Gupter|Ma+Shan+Zheng&display=swap');
 .App {
   text-align: center;
 }
-
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Gupter', serif;
+}
+button{
+   font-family: 'Girassol', cursive;
+}
+p{
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 2em;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
