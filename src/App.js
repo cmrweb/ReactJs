@@ -14,7 +14,7 @@ import ClassState from './component/class/ClassState';
 
 function App() {
   return (
-    <div className="App p-4 bg-dark text-light mt-4 d-flex justify-content-around col-md-10 mx-auto">
+    <div className="App p-4 bg-dark text-light mt-4 d-flex flex-column flex-md-row justify-content-around col-md-10 mx-auto">
       <section>
         <h1>Composant Fonctionnel</h1>
 

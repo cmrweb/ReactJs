@@ -59,11 +59,11 @@ class Tableau extends Component{
                     
                     <div className="from-group">
                         <label htmlFor="nom">Nom</label>
-                       <input onChange={this.getNom.bind(this)} value={this.state.inputNom} className="from-control text-center nom" type="text" autoComplete="off"/> 
+                       <input onChange={this.getNom.bind(this)} value={this.state.inputNom} className="from-control text-center nom secureName" type="text" autoComplete="off"/> 
                     </div>
                     <div className="from-group">
                         <label htmlFor="prenon">Prenom</label>
-                       <input onChange={this.getPrenom.bind(this)} value={this.state.inputPrenom} className="from-control text-center prenom" type="text" autoComplete="off"/> 
+                       <input onChange={this.getPrenom.bind(this)} value={this.state.inputPrenom} className="from-control text-center prenom secureName" type="text" autoComplete="off"/> 
                     </div>
                     <small className="text-danger">{this.state.erreur}</small>
                     <button onClick={this.addUser.bind(this)} className="btn btn-primary btn-sm m-2">Ajouter</button>

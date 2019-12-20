@@ -25,7 +25,7 @@ class Modal extends Component {
     render() {
         return (
             <div className="d-block">
-                <button id="modalBtn" className="btn btn-success" onClick={this.openModal.bind(this)}>Ajouter un contact</button>
+                <button id="modalBtn" className="btn btn-primary d-block mx-auto" onClick={this.openModal.bind(this)}>Ajouter un contact</button>
                 <div id="modal" className="myModal modal text-dark" role="dialog">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
