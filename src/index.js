@@ -7,12 +7,16 @@ import Exo1 from './component/exo/exo1';
 import Exo2 from './component/exo/exo2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Exo2bis from './component/exo/exo2bis';
+import Modal from './component/todoList/modal';
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<div>
+    <App />
+    <Modal />
+</div>, document.getElementById('root'));
 ReactDOM.render(<Exo1 />, document.getElementById('exo'));
 ReactDOM.render(
     <div className="d-flex justify-content-around p-4 col-md-6 mx-auto">
+        
         <Exo2/>
         <Exo2bis/>
     </div>

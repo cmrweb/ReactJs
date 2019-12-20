@@ -11,6 +11,7 @@ import ClassProps from './component/class/ClassProps';
 import ClassState from './component/class/ClassState';
 
 
+
 function App() {
   return (
     <div className="App p-4 bg-dark text-light mt-4 d-flex justify-content-around col-md-10 mx-auto">
@@ -39,6 +40,7 @@ function App() {
         <h2>State</h2>
         <ClassState/>
       </section>
+      
     </div>
   );
 }
